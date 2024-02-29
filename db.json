@@ -1,0 +1,63 @@
+{
+    "wallets": [{
+            "id": 1,
+            "value": "491234567890",
+            "name": "UBA Bank",
+            "balance": 152000,
+            "currency": "XOF",
+            "description": "Main bank account"
+        },
+        {
+            "id": 2,
+            "value": "U12345678",
+            "name": "Perfect Money",
+            "balance": 43,
+            "currency": "USD",
+            "description": ""
+        },
+        {
+            "id": 2,
+            "value": "3",
+            "name": "Wallet",
+            "balance": 132000,
+            "currency": "XOF",
+            "description": ""
+        }
+    ],
+    "expense": [{
+        "id": 1,
+        "date": 1709207922,
+        "category": 1,
+        "wallet": 1,
+        "amount": 2500,
+        "description": "Achat de pure water"
+    }],
+    "categories": [{
+            "id": 1,
+            "color": "#2CBDF2",
+            "name": "Utilities",
+            "description": "",
+            "type": "EXPENSES",
+            "currency": "XOF"
+        },
+        {
+            "id": 1,
+            "color": "#375EFB",
+            "name": "Housing",
+            "description": "",
+            "type": "EXPENSES",
+            "currency": "XOF"
+        },
+        {
+            "id": 1,
+            "color": "#6F3FF3",
+            "name": "Education",
+            "description": "",
+            "type": "EXPENSES",
+            "currency": "XOF"
+        }
+    ],
+    "profile": {
+        "name": "Mahugnon"
+    }
+}
